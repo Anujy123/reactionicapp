@@ -17,7 +17,7 @@ export default function App() {
             <Movie/>
             <Routes>
             <Route path='/' element={<Movie />} ></Route>
-                <Route path='/particularMovie/:id' element={<ParticularMovie />} ></Route>
+            <Route path='/particularMovie/:id' element={<ParticularMovie />} ></Route>
 
             </Routes>
 
