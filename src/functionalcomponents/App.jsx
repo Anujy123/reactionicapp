@@ -13,9 +13,10 @@ export default function App() {
 
     return (
         <>
-            <Navbar  />
+            <Navbar />
+            <Movie/>
             <Routes>
-                <Route path='/' element={<Movie  />} ></Route>
+            <Route path='/' element={<Movie />} ></Route>
                 <Route path='/particularMovie/:id' element={<ParticularMovie />} ></Route>
 
             </Routes>
